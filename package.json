@@ -1,0 +1,27 @@
+{
+  "name": "samples-webresx-ts",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to create Model-Driven App web resources with TypeScript",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wawawum/samples-webresx-ts.git"
+  },
+  "author": "Benjamin Bertin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wawawum/samples-webresx-ts/issues"
+  },
+  "homepage": "https://github.com/Wawawum/samples-webresx-ts#readme",
+  "devDependencies": {
+    "@types/xrm": "^9.0.60",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182"
+  }
+}

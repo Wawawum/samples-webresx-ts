@@ -10,14 +10,14 @@
 /******/ 	// runtime can't be in strict mode because a global variable is assign and maybe created.
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/contact/contact_form.ts":
-/*!*************************************!*\
-  !*** ./src/contact/contact_form.ts ***!
-  \*************************************/
+/***/ "./src/misc/misc.ts":
+/*!**************************!*\
+  !*** ./src/misc/misc.ts ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"myApp\": () => (/* binding */ myApp)\n/* harmony export */ });\nvar myApp;\r\n(function (myApp) {\r\n    myApp.contactForm = {\r\n        onLoad: function (executionContext) {\r\n            var shuffledNumbers = 'test';\r\n            var formContext = executionContext.getFormContext();\r\n            formContext.ui.setFormNotification(\"Hello World! Here are some numbers: \".concat(shuffledNumbers), 'INFO', 'www_contact_form_notif');\r\n        }\r\n    };\r\n})(myApp || (myApp = {}));\r\n\n\n//# sourceURL=webpack://www/./src/contact/contact_form.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"myApp\": () => (/* binding */ myApp)\n/* harmony export */ });\nvar myApp;\r\n(function (myApp) {\r\n    myApp.misc = {\r\n        onLoad: function (executionContext) {\r\n            var formContext = executionContext.getFormContext();\r\n            formContext.ui.setFormNotification(\"Some generic message\", 'INFO', 'www_misc_form_notif');\r\n        }\r\n    };\r\n})(myApp || (myApp = {}));\r\n\n\n//# sourceURL=webpack://www/./src/misc/misc.ts?");
 
 /***/ })
 
@@ -61,7 +61,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/contact/contact_form.ts"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/misc/misc.ts"](0, __webpack_exports__, __webpack_require__);
 /******/ 	var __webpack_export_target__ = (www = typeof www === "undefined" ? {} : www);
 /******/ 	for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
 /******/ 	if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });

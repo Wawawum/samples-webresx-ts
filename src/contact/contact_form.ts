@@ -1,14 +1,7 @@
-namespace www {
+export const onLoad = (executionContext: Xrm.Events.EventContext): void => {
 
-    export namespace samples {
+    const shuffledNumbers = 'test';
 
-        export const contactForm = {
-            
-            onLoad: (executionContext: Xrm.Events.EventContext): void => {
-                
-                const formContext = executionContext.getFormContext();
-                formContext.ui.setFormNotification('Hello World!', 'INFO', 'www_contact_form_notif');
-            }
-        }
-    }
+    const formContext = executionContext.getFormContext();
+    formContext.ui.setFormNotification(`Hello World! Here are some numbers: ${shuffledNumbers}`, 'INFO', 'www_contact_form_notif');
 }

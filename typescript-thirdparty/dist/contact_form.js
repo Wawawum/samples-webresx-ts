@@ -1,4 +1,1 @@
-function onContactFormLoad(executionContext) {
-    const formContext = executionContext.getFormContext();
-    formContext.ui.setFormNotification('Hello world!', 'INFO', 'www_contactform_notification');
-}
+(()=>{var e={d:(o,t)=>{for(var r in t)e.o(t,r)&&!e.o(o,r)&&Object.defineProperty(o,r,{enumerable:!0,get:t[r]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o),r:e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})}},o={};(()=>{"use strict";e.r(o),e.d(o,{onContactFormLoad:()=>t});const t=function(e){e.getFormContext().ui.setFormNotification("Hello world (part 2)!","INFO","www_contactform_notification")}})();var t=www="undefined"==typeof www?{}:www;for(var r in o)t[r]=o[r];o.__esModule&&Object.defineProperty(t,"__esModule",{value:!0})})();

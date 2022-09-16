@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    contact_form: './src/contact_form.ts',
+    www_crm: './src/crm.ts',
   },
   mode: 'production',
   module: {

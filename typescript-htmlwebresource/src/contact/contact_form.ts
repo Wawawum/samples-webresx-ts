@@ -6,5 +6,5 @@ export const onFormLoad = function(executionContext: Xrm.Events.EventContext) {
     const suffledTech = _.shuffle(technologies).join(', ');
 
     const formContext = executionContext.getFormContext();
-    formContext.ui.setFormNotification(`Here are some things you may interest you in no particular order: ${suffledTech}.`, 'INFO', 'www_contactform_notification');
+    formContext.ui.setFormNotification(`Here are some things that may interest you in no particular order: ${suffledTech}.`, 'INFO', 'www_contactform_notification');
 };

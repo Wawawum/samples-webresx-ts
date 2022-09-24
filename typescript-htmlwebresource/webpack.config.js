@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: {
     www_crm: './src/crm.ts',
-    www_contactcards: './src/html/www_contactcards.ts'
+    www_contactcards: './src/contact/www_contactcards.tsx'
   },
   mode: 'production',
   module: {

@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
 
-export const onFormLoad = function(executionContext: Xrm.Events.EventContext) {
+export function onFormLoad(executionContext: Xrm.Events.EventContext) {
 
     const technologies = ['Canvas App', 'Dataverse', 'Model-Driven App', 'Power Automate', 'Power BI'];
     const suffledTech = _.shuffle(technologies).join(', ');

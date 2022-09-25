@@ -21,6 +21,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
     library: {
       name: 'www',
       type: 'assign-properties',
